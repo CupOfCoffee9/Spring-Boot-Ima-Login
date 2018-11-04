@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>WELCOME</h1>
+<form id="logoutForm" th:action="@{/logout}" method="post">
+	<button onclick="document.getElementById('logoutForm').submit();">Sign out</button>
+</form>
+<script src="jquery-3.3.1.min.js"></script>
+</body>
+</html>
